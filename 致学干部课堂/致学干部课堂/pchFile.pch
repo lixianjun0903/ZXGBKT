@@ -1,0 +1,27 @@
+//
+//  pchFile.pch
+//  致学在线
+//
+//  Created by zhixue on 15/4/29.
+//  Copyright (c) 2015年 ZQZX. All rights reserved.
+//
+
+#ifndef _____pchFile_pch
+#define _____pchFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+#import "UILabel+Extension.h"
+
+#define kBundleVersion @"CFBundleVersion"
+
+#define color(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define randomColor [UIColor colorWithRed:(arc4random_uniform(256))/255.0 green:(arc4random_uniform(256))/255.0 blue:(arc4random_uniform(256))/255.0 alpha:1.0]
+#define kViewWidth self.view.width
+#define kViewHeight self.view.height
+#define kWindowWidth [UIApplication sharedApplication].keyWindow.width
+#define kWindowHeight [UIApplication sharedApplication].keyWindow.height
+#define kMargin 10
+#endif

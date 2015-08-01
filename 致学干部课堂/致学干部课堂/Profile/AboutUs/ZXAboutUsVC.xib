@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZXAboutUsVC">
+            <connections>
+                <outlet property="showImageView" destination="2I6-fr-SW8" id="avO-Iy-qQC"/>
+                <outlet property="view" destination="iN0-l3-epB" id="NmI-QA-v5Q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©中青致学（北京）教育科技有限公司" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuX-uw-wBE">
+                    <rect key="frame" x="48" y="517" width="225" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7tL-Xf-CaL"/>
+                        <constraint firstAttribute="width" constant="225" id="ag3-Fq-TFr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系我们：010-88888888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37b-fb-GBf">
+                    <rect key="frame" x="48" y="486" width="225" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="225" id="4b6-fO-nuH"/>
+                        <constraint firstAttribute="height" constant="21" id="QKf-3Z-jkS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="show_appIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2I6-fr-SW8">
+                    <rect key="frame" x="120" y="80" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Y5S-NN-exa"/>
+                        <constraint firstAttribute="height" constant="80" id="xtG-sn-MBd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本：V1.0.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nk-u9-R8L">
+                    <rect key="frame" x="60" y="180" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="bhM-k2-u2N"/>
+                        <constraint firstAttribute="height" constant="21" id="kKs-Xr-7yP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正言正语正能量" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1e-nM-Y4Z">
+                    <rect key="frame" x="64" y="241" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="UoR-RM-2wf"/>
+                        <constraint firstAttribute="width" constant="193" id="hJF-YF-6dt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.92156862745098034" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为学为用为成长" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5q-G0-ObO">
+                    <rect key="frame" x="64" y="278" width="193" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="UxL-Gx-D5T"/>
+                        <constraint firstAttribute="width" constant="193" id="ipB-gz-pSp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.92156862750000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="e1e-nM-Y4Z" secondAttribute="centerX" id="2gp-rP-ad2"/>
+                <constraint firstAttribute="centerX" secondItem="4nk-u9-R8L" secondAttribute="centerX" id="471-cf-Ja2"/>
+                <constraint firstAttribute="centerX" secondItem="37b-fb-GBf" secondAttribute="centerX" id="HRc-0b-Uej"/>
+                <constraint firstAttribute="centerX" secondItem="2I6-fr-SW8" secondAttribute="centerX" id="JZe-2a-Zu5"/>
+                <constraint firstAttribute="bottom" secondItem="PuX-uw-wBE" secondAttribute="bottom" constant="30" id="Njr-yI-WZq"/>
+                <constraint firstItem="P5q-G0-ObO" firstAttribute="top" secondItem="e1e-nM-Y4Z" secondAttribute="bottom" constant="16" id="OPn-2o-4si"/>
+                <constraint firstItem="4nk-u9-R8L" firstAttribute="top" secondItem="2I6-fr-SW8" secondAttribute="bottom" constant="20" id="Vnb-1C-0sg"/>
+                <constraint firstAttribute="centerX" secondItem="PuX-uw-wBE" secondAttribute="centerX" id="YDE-fo-TXn"/>
+                <constraint firstAttribute="centerX" secondItem="P5q-G0-ObO" secondAttribute="centerX" id="cAc-88-XLt"/>
+                <constraint firstItem="2I6-fr-SW8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="kkf-Y5-NGo"/>
+                <constraint firstItem="e1e-nM-Y4Z" firstAttribute="top" secondItem="4nk-u9-R8L" secondAttribute="bottom" constant="40" id="orz-fh-SqA"/>
+                <constraint firstItem="PuX-uw-wBE" firstAttribute="top" secondItem="37b-fb-GBf" secondAttribute="bottom" constant="10" id="tf7-7o-aoR"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="476" y="407"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="show_appIcon" width="60" height="60"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
